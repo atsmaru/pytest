@@ -20,6 +20,10 @@ def test_2():
     b = 2
     assert a != b
 
-
 def test_3(variable):
     assert variable == "hi"
+
+def test_4():
+    a = 2
+    b = 2
+    assert a != b
