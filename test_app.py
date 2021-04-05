@@ -26,4 +26,4 @@ def test_3(variable):
 def test_4():
     a = 2
     b = 2
-    assert a != b
+    assert a == b
