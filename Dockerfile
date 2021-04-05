@@ -4,6 +4,8 @@ RUN apt update
 RUN apt -y upgrade
 RUN apt -y install sudo
 #RUN pip install pandas
+RUN apt install python
+RUN apt instal python-pip
 RUN pip install pytest
 #RUN sudo apt -y install tzdata
 #RUN sudo apt -y install wget cmake git p7zip-full
